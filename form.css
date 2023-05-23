@@ -1,0 +1,39 @@
+.text {
+    color: rgb(17, 52, 89); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+body {
+    background-image: url(back3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#formulaire{
+    margin-left: 65%;
+    width: 440px;
+    background-color: #d1dee2d0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+input {
+    box-shadow: rgba(117, 83, 181, 0.35) 0px 5px 15px;
+    background-color: rgba(0,0,0, 0);
+    border: 2px solid rgb(140, 140, 245);
+    border-radius: 5px;
+    outline: none;
+    font-weight: bolder;
+}
+::placeholder{
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+    font-weight: lighter;
+}
+.inp {
+    display: flex;
+    justify-content:space-around;
+    font-weight: lighter;
+}

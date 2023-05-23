@@ -1,0 +1,210 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+
+    width: 100%;
+    opacity: .8;
+
+    height: 65px;
+
+    background-color: rgb(49, 46, 46);
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    -webkit-box-shadow: -2px 10px 18px 2px rgba(151,151,151,0.25);
+
+    box-shadow: -2px 10px 18px 2px rgba(151,151,151,0.25);
+    
+
+}
+
+ 
+
+.navbar > div {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  19px ;
+
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    color: white;
+
+}
+
+ 
+
+.navbar > div > form > select, option {
+
+    width: fit-content;
+
+    height: 30px;
+
+    border-radius: 5px;
+
+    background-color: rgb(49, 46, 46);
+
+    color: white;
+
+}
+
+ 
+
+.navbar > div > button {
+
+    width: 150%;
+
+    background-color: rgb(210, 210, 210);
+
+    color: rgb(53, 52, 52);
+
+}
+
+ 
+
+.navbar > div > a > button {
+
+    width: 125%;
+
+    height: 25px;
+
+    border-radius: 5px;
+
+    background-color: rgb(49, 49, 49);
+
+    color: aliceblue;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+.search {
+    width: 352px;
+    float: left;
+    margin-left: 1125px;
+    margin-top: -20px;
+}
+.srch {
+    width: 215px;
+    background: transparent;
+    border: 1px solid ;
+    color: white;
+    font-size: 13px;
+    
+}
+.search button {
+    border-radius: 25px;
+}
+.btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 0px !important; 
+    background-color: white !important;
+    color: black !important;
+
+}
+body {
+    background-image: url(back3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.section-left h1 {
+    color: rgb(205, 114, 28);
+}
+.section-left {
+    width: 500px;
+    margin-top: 160px;
+    position: relative;
+}
+.section-left p {
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: antiquewhite;
+}
+.div1{
+    margin-top: 50px;
+}
+.photo2 {
+    margin-left: 25px;
+    word-spacing: 10px
+}
+.in {
+    width: 215px;
+    height: 30px;
+    border-radius: 0px;
+    background: transparent;
+    border-bottom: 3px solid rgb(208, 124, 14);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+    
+}
+.form {
+    width: 365px;
+    height: 480px;
+    position: absolute;
+    background-color:rgb(49, 46, 46);
+    opacity: .8;
+    top: 165px;
+    left: 1000px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.form p {
+    font-size: 20px;
+    color: antiquewhite;
+}
+.form h3 {
+    color: rgb(208, 124, 14);
+}
+.form h2 {
+    color: white;
+}
+.text {
+    margin-top: -150px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16.5px;
+}
+.text1 {
+    margin-top: 35px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16.5px;
+}
+.error {
+    margin-top: -180px;
+    margin-left: 1002px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black ;
+}
+
+
+
+
+
